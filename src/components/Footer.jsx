@@ -9,9 +9,11 @@ const Footer = () => {
         <div className='col'>
             <a className='logo link' id='logo' href="#">Khit Myat Noe</a>
             <h4>Contact</h4>
-            <p><strong>Address:</strong>107, Anaw Rha Hta Road, <br/>Kyauk Tada Township, Yangon, Myanmar</p>
-            <p><strong>Phone:</strong>(+95) 09 787 177 850</p>
-            <p><strong>Hours:</strong>9:00 - 21:00, Mon - Sun</p>
+            <p><strong>Address:</strong> 107, Anaw Rha Hta Road, <br/><br />Kyauk Tada Township, Yangon, Myanmar</p>
+            <br />
+            <p><strong>Phone:</strong> (+95) 09 787 177 850</p>
+            <br />
+            <p><strong>Hours:</strong> 9:00 - 21:00, Mon - Sun</p>
 
             <div className='follow'>
                 <h4>Follow Us</h4>

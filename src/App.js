@@ -1,8 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
-import Home from "./pages/Home/Home";
-import Shop from "./pages/Shop/Shop";
+import HomePage from "./pages/Home/Home";
+import ShopPage from "./pages/Shop/Shop";
 import BlogPage from "./pages/Blog/BlogPage";
+import AboutPage from "./pages/About/AboutPage";
+import ContactPage from "./pages/Contact/ContactPage";
+import CartPage from "./pages/Cart/CartPage";
 import "./App.css";
 
 function App() {
@@ -10,9 +13,12 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="shop" element={<Shop />} />
+          <Route index element={<HomePage />} />
+          <Route path="shop" element={<ShopPage />} />
           <Route path="blog" element={<BlogPage />} />
+          <Route path="about" element={<AboutPage />} />
+          <Route path="contact" element={<ContactPage />} />
+          <Route path="cart" element={<CartPage />} />
         </Route>
       </Routes>
     </BrowserRouter>

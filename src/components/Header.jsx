@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink, useLocation } from 'react-router-dom'; 
-import { BsCart2 } from "react-icons/bs";
+import { FaShoppingBag } from "react-icons/fa";
 
 const Header = () => {
     
@@ -26,7 +26,7 @@ const Header = () => {
                     <span className={pathname === "/contact" ? 'active' : ''}>Contact</span>
                 </NavLink>
                 <NavLink className="navlink" id="lg-bag" to="/cart">
-                    <span className={pathname === "/cart" ? 'active' : ''}><BsCart2 /></span>
+                    <span className={pathname === "/cart" ? 'active' : ''}><FaShoppingBag /></span>
                 </NavLink>
             </nav>
         </header>
