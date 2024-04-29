@@ -27,7 +27,7 @@ const Products = () => {
             </div>
             
             <div className='pro'>
-                <img className="shop-img" src="image/products/p2.jpg" alt="2nd product" />
+                <img className="shop-img" src="image/products/p2.JPG" alt="2nd product" />
                 <div className='description'>
                     <span>Shwe Loom Late Pyar</span>
                     <h5>Bring Pink Chate Lone G</h5>
@@ -46,7 +46,7 @@ const Products = () => {
             </div>
             
             <div className='pro'>
-                <img className="shop-img" src="image/products/p3.jpg" alt="3rd product" />
+                <img className="shop-img" src="image/products/p3.JPG" alt="3rd product" />
                 <div className='description'>
                     <span>Shwe Loom Late Pyar</span>
                     <h5>Bring Pink Chate Lone G</h5>
@@ -65,7 +65,7 @@ const Products = () => {
             </div>
             
             <div className='pro'>
-                <img className="shop-img" src="image/products/p4.jpg" alt="4th product" />
+                <img className="shop-img" src="image/products/p4.JPG" alt="4th product" />
                 <div className='description'>
                     <span>Shwe Loom Late Pyar</span>
                     <h5>Bring Pink Chate Lone G</h5>
@@ -84,7 +84,7 @@ const Products = () => {
             </div>
             
             <div className='pro'>
-                <img className="shop-img" src="image/products/p5.jpg" alt="5th product" />
+                <img className="shop-img" src="image/products/p5.JPG" alt="5th product" />
                 <div className='description'>
                     <span>Shwe Loom Late Pyar</span>
                     <h5>Bring Pink Chate Lone G</h5>
@@ -103,7 +103,7 @@ const Products = () => {
             </div>
             
             <div className='pro'>
-                <img className="shop-img" src="image/products/p6.jpg" alt="6th product" />
+                <img className="shop-img" src="image/products/p6.JPG" alt="6th product" />
                 <div className='description'>
                     <span>Shwe Loom Late Pyar</span>
                     <h5>Bring Pink Chate Lone G</h5>
@@ -122,7 +122,7 @@ const Products = () => {
             </div>
             
             <div className='pro'>
-                <img className="shop-img" src="image/products/p7.jpg" alt="7th product" />
+                <img className="shop-img" src="image/products/p7.JPG" alt="7th product" />
                 <div className='description'>
                     <span>Shwe Loom Late Pyar</span>
                     <h5>Bring Pink Chate Lone G</h5>
@@ -141,7 +141,7 @@ const Products = () => {
             </div>
             
             <div className='pro'>
-                <img className="shop-img" src="image/products/p8.jpg" alt="8th product" />
+                <img className="shop-img" src="image/products/p8.JPG" alt="8th product" />
                 <div className='description'>
                     <span>Shwe Loom Late Pyar</span>
                     <h5>Bring Pink Chate Lone G</h5>
