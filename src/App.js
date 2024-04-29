@@ -12,7 +12,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route path="/KMN-React" element={<Layout />}>
           <Route index element={<HomePage />} />
           <Route path="shop" element={<ShopPage />} />
           <Route path="blog" element={<BlogPage />} />
