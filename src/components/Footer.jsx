@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className='section-p1'>
         <div className='col'>
-            <Link className='logo link' id='logo'>Khit Myat Noe</Link>
+            <a className='logo link' id='logo' href="#">Khit Myat Noe</a>
             <h4>Contact</h4>
             <p><strong>Address:</strong>107, Anaw Rha Hta Road, <br/>Kyauk Tada Township, Yangon, Myanmar</p>
             <p><strong>Phone:</strong>(+95) 09 787 177 850</p>

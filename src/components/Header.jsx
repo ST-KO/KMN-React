@@ -1,35 +1,35 @@
 import React from 'react';
-import { Link, NavLink, useParams } from 'react-router-dom'; 
+import { NavLink, useLocation } from 'react-router-dom'; 
 import { BsCart2 } from "react-icons/bs";
 
 const Header = () => {
     
-    const param = useParams();
-    console.log(param);
+    const {pathname} = useLocation();
 
     return (
-    <header>
-        <section id="header">
-            <Link id="logo" to="/">Khit Myat Noe</Link>
+        <header id="header">
+            <a id="logo" href="#">Khit Myat Noe</a>
             <nav id="navbar">
                 <NavLink className="navlink" to="/">
-                    <span className='active'>Home</span> 
+                    <span className={pathname === "/" ? 'active' : ''}>Home</span> 
                 </NavLink>
-                <NavLink className="navlink" to="/">
-                    <span>Shop</span>
+                <NavLink className="navlink" to="/shop">
+                    <span className={pathname === "/shop" ? 'active' : ''}>Shop</span>
                 </NavLink>
-                <NavLink className="navlink" to="/">
-                    <span>About</span>
+                <NavLink className="navlink" to="/blog">
+                    <span className={pathname === "/blog" ? 'active' : ''}>Blog</span>
                 </NavLink>
-                <NavLink className="navlink" to="/">
-                    <span>Contact</span>
+                <NavLink className="navlink" to="/about">
+                    <span className={pathname === "/about" ? 'active' : ''}>About</span>
                 </NavLink>
-                <NavLink className="navlink" id="lg-bag" to="/">
-                    <span><BsCart2 /></span>
+                <NavLink className="navlink" to="/contact">
+                    <span className={pathname === "/contact" ? 'active' : ''}>Contact</span>
+                </NavLink>
+                <NavLink className="navlink" id="lg-bag" to="/cart">
+                    <span className={pathname === "/cart" ? 'active' : ''}><BsCart2 /></span>
                 </NavLink>
             </nav>
-        </section>
-    </header>
+        </header>
   )
 }
 
