@@ -10,9 +10,9 @@ import "./App.css";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/KMN-React">
       <Routes>
-        <Route path="/KMN-React" element={<Layout />}>
+        <Route path="/" element={<Layout />}>
           <Route index element={<HomePage />} />
           <Route path="shop" element={<ShopPage />} />
           <Route path="blog" element={<BlogPage />} />
