@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/KMN-React/static/css/main.58f43b96.css",
-    "main.js": "/KMN-React/static/js/main.32a911d4.js",
+    "main.js": "/KMN-React/static/js/main.5ee29931.js",
     "static/js/453.ecc72f4b.chunk.js": "/KMN-React/static/js/453.ecc72f4b.chunk.js",
     "static/media/b11.png": "/KMN-React/static/media/b11.d265db5a10069bdfb50b.png",
     "static/media/b12.png": "/KMN-React/static/media/b12.7b317d5c03055147fc1f.png",
@@ -10,11 +10,11 @@
     "static/media/b14.png": "/KMN-React/static/media/b14.b3fa0d36c31c33d909c6.png",
     "index.html": "/KMN-React/index.html",
     "main.58f43b96.css.map": "/KMN-React/static/css/main.58f43b96.css.map",
-    "main.32a911d4.js.map": "/KMN-React/static/js/main.32a911d4.js.map",
+    "main.5ee29931.js.map": "/KMN-React/static/js/main.5ee29931.js.map",
     "453.ecc72f4b.chunk.js.map": "/KMN-React/static/js/453.ecc72f4b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.58f43b96.css",
-    "static/js/main.32a911d4.js"
+    "static/js/main.5ee29931.js"
   ]
 }
